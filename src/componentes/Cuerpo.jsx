@@ -2,7 +2,9 @@ import React from 'react';
 import QuienSoy from './QuienSoy';
 import NavBar from './navreact';
 import Proyectos from './Proyectos';
+import Cv from './CV';
 import './../App.css'
+import Footer from './Footer';
 
 export default class Cuerpo extends React.Component {
     
@@ -19,6 +21,12 @@ export default class Cuerpo extends React.Component {
                     </div>
                     <div>
                         <Proyectos/>
+                    </div>
+                    <div>
+                        <Cv/>
+                    </div>
+                    <div>
+                        <Footer/>
                     </div>
                 </div>
             </section> 

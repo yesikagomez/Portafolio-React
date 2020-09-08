@@ -6,7 +6,7 @@ function QuienSoy() {
     return (
         <div className="row text-center" id="quien-soy">
             <div className="col">
-                <img src={foto} alt="Yesika Gomez" className="rounded float-left img-fluid" id="foto_yesika"/>
+                <img src={foto} alt="Yesika Gomez" id="foto_yesika"/>
             </div>
             <div className="col" id="info">
                 <h2>QUIEN SOY</h2>

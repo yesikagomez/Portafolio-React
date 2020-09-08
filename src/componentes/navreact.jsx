@@ -5,7 +5,7 @@ import './../index.css'
 function NavBar() {
     return (
 <Navbar expand="lg" variant="dark" id="menu" className="position-fixed container" >
-  <Navbar.Brand style={{ fontSize: `230%` }} href="#home" className="nombre">Yesika Gomez Montoya</Navbar.Brand>
+  <Navbar.Brand style={{ fontSize: `200%` }} href="#home" className="nombre">Yesika Gomez Montoya</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav" className="nombre">
     <Nav className="mr-auto" style={{ fontSize: `130%` }}>
