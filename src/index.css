@@ -7,10 +7,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-#menu {
-  background: #840021;
+#proyectos{
+  background: #ea6a6a;
+}
+#nav{
+  position: fixed;
+}
+#foto_yesika {
+  height: 450px;
 }
 
+h2 {
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #840021;
+}
+
+p{
+  font-family: 'Pathway Gothic One', sans-serif;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
