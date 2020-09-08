@@ -3,12 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './../index.css'
 
 function NavBar() {
-    const style = {
-        background: '#840021',
-    };
     return (
-        <div className="container-{breakpoint} fixed-top justify-content-center" style={style}>
-            <nav className="navbar navbar-inverse navbar-static-top navbar-expand-lg navbar-light bg-white justify-content-between text-responsive">
+        <div className="container-{breakpoint} fixed-top justify-content-center">
+            <nav className="navbar navbar-inverse navbar-static-top navbar-expand-lg navbar-light bg-white justify-content-between text-responsive" id="menu">
                 <a className="navbar-brand" href="#">
                     <h2 className="nombre text-responsive">Yesika Gomez Montoya</h2>
                 </a>
