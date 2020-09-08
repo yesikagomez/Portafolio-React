@@ -8,7 +8,7 @@ function QuienSoy() {
             <div className="col">
                 <img src={foto} alt="Yesika Gomez" className="rounded float-left img-fluid" id="foto_yesika"/>
             </div>
-            <div className="col ">
+            <div className="col" id="info">
                 <h2>QUIEN SOY</h2>
                 <p className="text-justify mt-3">
                     Soy una persona capacitada para diseñar y

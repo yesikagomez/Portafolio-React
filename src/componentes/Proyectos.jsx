@@ -7,7 +7,7 @@ export default class Proyectos extends React.Component {
     render(){
        
         return (
-                <div>
+                <div id="proyectos">
                     <div className="py-4">
                         <h2 className="text-center">PROYECTOS</h2>
                     </div>

@@ -25,7 +25,22 @@ h2 {
 p{
   font-family: 'Pathway Gothic One', sans-serif;
 }
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #foto_yesika  { 
+      position: absolute;
+      left: 100px;
+      top: 60px;
+      opacity: 0.5;
+    }
+    #info {
+      position: relative;
+      left: -80px;
+      top: 60px;
+      
+    }
+
 }
