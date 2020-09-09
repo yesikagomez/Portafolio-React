@@ -12,8 +12,8 @@ export default class Curriculum extends React.Component {
                 <div className="curriculum">
                     <img id="img-curriculum" src={CV}/>
                 </div>
-                <div>
-                    <a href={Documento} download="CV Yesika Johana Gomez Montoya">Descargar</a>
+                <div className="text-center">
+                    <a href={Documento} download="CV Yesika Johana Gomez Montoya" className="m-4 hoja">Descargar Curriculum Vitae</a>
                 </div>
             </section> 
         )

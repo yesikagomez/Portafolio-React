@@ -12,6 +12,7 @@ export default class Proyectos extends React.Component {
                         <h2 className="text-center">PROYECTOS</h2>
                     </div>
                     <div >
+                        
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="holder.js/100px180" />
                         <Card.Body>

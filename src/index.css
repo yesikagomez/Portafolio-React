@@ -31,6 +31,30 @@ p{
   font-family: 'Pathway Gothic One', sans-serif;
 }
 
+.hoja:link, .hoja:visited {
+  background-color: #840021;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  width: 40%;
+}
+
+.hoja:hover, .hoja:active {
+  background-color: #bbbbbb;
+}
+
+a {
+  text-decoration-line: none;
+  color: #000000;
+  font-size: 20px;
+}
+a:hover {
+  color: #840021;
+}
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
