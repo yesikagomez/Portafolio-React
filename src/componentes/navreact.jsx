@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {Navbar, NavDropdown,Nav} from 'react-bootstrap';
 import './../index.css'
 
@@ -9,7 +9,7 @@ function NavBar() {
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav" className="nombre">
     <Nav className="mr-auto" style={{ fontSize: `130%` }}>
-      <Nav.Link href="#home">Quien Soy</Nav.Link>
+      <Nav.Link href="#">Quien Soy</Nav.Link>
       <NavDropdown title="Proyectos">
           <div id="proyectos" style={{ fontSize: '130%'}}>
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

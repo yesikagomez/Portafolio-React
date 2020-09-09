@@ -5,25 +5,27 @@ import foto from './../imagenes/Yesika_gomez.jpg';
 function QuienSoy() {
     return (
         <section>
-        <div className="row text-center" id="quien-soy">
+        <div className="row text-center mt-4" id="quien-soy">
             <div>
                 <img src={foto} id="foto_yesika"/>
             </div>
             <div className="col" id="info">
-                <h2>QUIEN SOY</h2>
-                <p className="text-justify mt-3">
-                    Soy una persona capacitada para diseñar y
-                    desarrollar soluciones informáticas, me
-                    considero una persona responsable,
-                    cumplida, honesta, también tengo la
-                    capacidad de trabajar en equipo, que
-                    cumple con las labores y requerimientos que
-                    se le exigen. Me considero una persona con
-                    una alta facilidad de absorber
-                    conocimientos teóricos y prácticos, también
-                    soy lógica, deliberada, que antes de actuar
-                    pienso las cosas y sus consecuencias.
-                </p>
+                <h2>Ingeniera de Sistemas y Desarrolladora de Software Front-End.</h2>
+                <p>Como desarrolladora de Software Front-End, creo sitios web que se ajustan a lo que necesitas para que tu negocio tenga mas visibilidad.</p>
+                <div className="py-4">
+                    <h2>QUIEN SOY</h2>
+                    <p className="text-justify mt-3">
+                        Soy una persona capacitada para diseñar y
+                        desarrollar soluciones informáticas,tengo conocimientos en
+                        diferentes lenguajes como JacvaScript, PHP, C#. 
+                        Considero que manejo estilos, no solo nativos si no tambien 
+                        manejando framework como Boostrap, tambn he manejado framework para 
+                        lenguajes de programación entre los cuales esta React y Laravel.
+                        Tambien tengo conocimientos en base de datos SQL. 
+                        Siempre me gusta estar aprendiendo cosas nuevas y mas si tienen que ver con
+                        el desarrollo porque es algo que me apasiona.
+                    </p>
+                </div>
             </div>
         </div>
         </section>

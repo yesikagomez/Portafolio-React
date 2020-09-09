@@ -1,4 +1,5 @@
 import React from 'react';
+import Homenaje from './../imagenes/PaginaHomenaje.png';
 import {Card, Button, } from 'react-bootstrap';
 
 
@@ -8,62 +9,47 @@ export default class Proyectos extends React.Component {
        
         return (
                 <div id="proyecto">
-                    <div className="py-4">
+                    <div className="py-3">
                         <h2 className="text-center">PROYECTOS</h2>
                     </div>
-                    <div >
-                        
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
-                        </Card>
+                    <section id="projects">
+            <article class="project-tile">
+                <div>
+                    <h5>Homenaje a Mariangel Gomez</h5>
+                    <img src={Homenaje} alt="..."/>
+                    <div>
+                      <a href="https://yesikagomez.github.io/PaginaHomenaje/" >Visitar</a>
                     </div>
-                    <div >
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
-                        </Card>
+                  </div>
+            </article>
+            <article class="project-tile">
+                <div>
+                    <h5>Formulario</h5>
+                    <img src="Imagenes/Formulario.png" alt="..."/>
+                    <div>
+                      <a href="https://yesikagomez.github.io/Formulario/">Visitar</a>
                     </div>
-                    <div >
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
-                        </Card>
+                  </div>
+            </article>
+            <article class="project-tile">
+                <div>
+                    <h5>Cosmeticos de Belleza</h5>
+                    <img src="Imagenes/Producto.png"lt="..."/>
+                    <div>
+                      <a href="https://yesikagomez.github.io/Producto/">Visitar</a>
                     </div>
-                    <div >
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
-                        </Card>
+                  </div>
+            </article>
+            <article class="project-tile">
+                <div>
+                    <h5>Documentación Tecnica</h5>
+                    <img src="Imagenes/DocumentacionTecnica.png" alt="..."/>
+                    <div>
+                      <a href="https://yesikagomez.github.io/DocumentacionTecnica/">Visitar</a>
                     </div>
+                  </div>
+            </article>
+        </section>
                 </div>
         )
     }
