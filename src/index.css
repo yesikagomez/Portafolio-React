@@ -104,27 +104,41 @@ a:hover {
   margin-top: 40px;
 }
 
-
-
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    #foto_yesika  { 
-      position: absolute;
-      left: 100px;
-      top: 60px;
-      opacity: 0.5;
-      width: 100%;
-    }
-    #info {
-      position: relative;
-      left: -80px;
-      top: 60px;
-      
-    }
     .nombre {
       font-size: 90px;
     }
+    #foto_yesika  { 
+      position: absolute;
+      left: 10%;
+      top: 25%;
+      opacity: 0.5;
+      width: 100%;
+    }
+    #carrera {
+      position: relative;
+      left: 10%;
+      top: 90px;
+    }
+    
+    #soy {
+      position: relative;
+      left: 10%;
+      top: 160px;
+    }
+
+    #proyecto{
+      padding-top: 15%;
+    }
+
+    h3 {
+      font-size: 15px;
+      margin: 5px; 
+    }
+
+    
 
 }

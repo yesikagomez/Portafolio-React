@@ -6,15 +6,17 @@ function QuienSoy() {
     return (
         <section className="container" id="quien">
         <div className="row text-center" id="quien-soy">
-            <div>
+            <div id="imagen">
                 <img src={foto} id="foto_yesika"/>
             </div>
             <div className="col" id="info">
-                <h2>Ingeniera de Sistemas y Desarrolladora de Software Front-End.</h2>
-                <p>Como desarrolladora de Software Front-End, creo sitios web que se ajustan a lo que necesitas para que tu negocio tenga mas visibilidad.</p>
-                <div className="py-4">
-                    <h2>QUIEN SOY</h2>
-                    <p className="text-justify mt-3">
+                <di id="carrera">
+                    <h2 className="informacion">Ingeniera de Sistemas y Desarrolladora de Software Front-End.</h2>
+                    <p className="informacion">Como desarrolladora de Software Front-End, creo sitios web que se ajustan a lo que necesitas para que tu negocio tenga mas visibilidad.</p>
+                </di>
+                <div className="py-4" id="soy">
+                    <h2 className="informacion">QUIEN SOY</h2>
+                    <p className="text-justify mt-3 informacion">
                         Soy una persona capacitada para diseñar y
                         desarrollar soluciones informáticas,tengo conocimientos en
                         diferentes lenguajes como JacvaScript, PHP, C#. 
