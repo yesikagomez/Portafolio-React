@@ -9,17 +9,17 @@ function NavBar() {
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav" className="nombre">
     <Nav className="mr-auto" style={{ fontSize: `130%` }}>
-      <Nav.Link href="#">Quien Soy</Nav.Link>
+      <Nav.Link href="./QuienSoy#quien">Quien Soy</Nav.Link>
       <NavDropdown title="Proyectos">
           <div id="proyectos" style={{ fontSize: '130%'}}>
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="www.facebook.com">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+            <NavDropdown.Item href="./Proyectos#PaginaHomenaje">Pagina Homenaje</NavDropdown.Item>
+            <NavDropdown.Item href="./Proyectos#Formulario">Formulario</NavDropdown.Item>
+            <NavDropdown.Item href="./Proyectos#Productos">Productos</NavDropdown.Item>
+            <NavDropdown.Item href="./Proyectos#DocumentacionTecnica">Documentación Tecnica</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
           </div>
       </NavDropdown>
-      <Nav.Link href="#link">CV</Nav.Link>
+      <Nav.Link href="./CV#footer">CV</Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>

@@ -16,13 +16,13 @@ export default class Cuerpo extends React.Component {
                     <div className="py-1 mb-5" >
                         <NavBar/>
                     </div>
-                    <div className="py-5">
+                    <div className="py-5 m-2">
                         <QuienSoy/>
                     </div>
                     <div>
                         <Proyectos/>
                     </div>
-                    <div>
+                    <div className="py-5">
                         <Cv/>
                     </div>
                     <div>

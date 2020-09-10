@@ -4,8 +4,8 @@ import foto from './../imagenes/Yesika_gomez.jpg';
 
 function QuienSoy() {
     return (
-        <section>
-        <div className="row text-center mt-4" id="quien-soy">
+        <section className="container" id="quien">
+        <div className="row text-center" id="quien-soy">
             <div>
                 <img src={foto} id="foto_yesika"/>
             </div>
@@ -29,6 +29,7 @@ function QuienSoy() {
             </div>
         </div>
         </section>
+        
     )
 }
 
