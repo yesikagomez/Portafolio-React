@@ -16,7 +16,8 @@ function NavBar() {
             <NavDropdown.Item href="./Proyectos#Formulario">Formulario</NavDropdown.Item>
             <NavDropdown.Item href="./Proyectos#Productos">Productos</NavDropdown.Item>
             <NavDropdown.Item href="./Proyectos#DocumentacionTecnica">Documentación Tecnica</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+            <NavDropdown.Item href="./Proyectos#Calculadora">Calculadora</NavDropdown.Item>
+            <NavDropdown.Item href="./Proyectos#Pomodoro">Pomodoro</NavDropdown.Item>
           </div>
       </NavDropdown>
       <Nav.Link href="./Cuerpo#CV">CV</Nav.Link>
