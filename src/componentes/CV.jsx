@@ -1,6 +1,6 @@
 import React from 'react';
-import CV from './../imagenes/CVYesikaGomez.jpg'
-import Documento from './../Documento/Hoja de Vida Yesika Johana Gomez Montoya.pdf'
+import CV from './../imagenes/CV_Yesika_Gomez.jpg'
+import Documento from './../Documento/CV_Yesika_Gomez.pdf'
 
 export default class Curriculum extends React.Component {
     
